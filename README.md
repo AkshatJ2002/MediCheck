@@ -22,7 +22,7 @@ Medicheck is a web application that empowers users to identify medicines simply 
 
 ## 🎬 Demo
 
-![Medicheck Demo](https://your-image-url.com/medicheck-demo.gif)
+[Medicheck Demo](https://your-image-url.com/medicheck-demo.gif)
 
 *Check out a quick demo of Medicheck in action!*
 
