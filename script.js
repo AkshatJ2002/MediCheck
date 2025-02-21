@@ -148,7 +148,7 @@ async function search() {
       return;
     }
 
-    const response = await fetch("http://localhost:3000/search", {
+    const response = await fetch("https://medicheck-qg0q.onrender.com/index2.html", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
