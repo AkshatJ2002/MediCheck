@@ -242,7 +242,56 @@
     </div>
     </div>
      <script src="/script.js"></script>
-    
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const scroll = new LocomotiveScroll({
+        el: document.querySelector('#main'),
+        smooth: true
+      });
+      document.getElementById('goToTopBtn').addEventListener('click', function(event) {
+                event.preventDefault();
+                scroll.scrollTo(0);
+    });
+    document.getElementById('footer_doc_button').addEventListener('click', function(event) {
+                event.preventDefault();
+                scroll.scrollTo(steps);
+    });
+    document.getElementById('doc_button').addEventListener('click', function(event) {
+                event.preventDefault();
+                scroll.scrollTo(steps);
+    });
+    document.getElementById('users_guide').addEventListener('click', function(event) {
+                event.preventDefault();
+                scroll.scrollTo(steps);
+    });
+    document.getElementById('contact_button').addEventListener('click', function(event) {
+                event.preventDefault();
+                scroll.scrollTo(footer);
+    });
+    document.getElementById('get_in_touch').addEventListener('click', function(event) {
+                event.preventDefault();
+                scroll.scrollTo(footer);
+    });
+    document.getElementById('team_button').addEventListener('click', function(event) {
+                event.preventDefault();
+                scroll.scrollTo(team);
+    });
+    document.getElementById('footer_team_button').addEventListener('click', function(event) {
+                event.preventDefault();
+                scroll.scrollTo(team);
+    });
+    });
+    document.querySelectorAll('.faq-item').forEach(item => {
+      item.addEventListener('click', () => {
+        document.querySelectorAll('.faq-item').forEach(otherItem => {
+          if (otherItem !== item) {
+            otherItem.classList.remove('active');
+          }
+        });
+        item.classList.toggle('active');
+      });
+    });
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
