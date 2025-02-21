@@ -22,7 +22,7 @@ Medicheck is a web application that empowers users to identify medicines simply 
 
 ## 🎬 Demo
 
-[Medicheck Demo](https://your-image-url.com/medicheck-demo.gif)
+[Medicheck Demo](https://medicheck-qg0q.onrender.com)
 
 *Check out a quick demo of Medicheck in action!*
 
@@ -124,8 +124,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-- **Email**: [anadiyadav33@gmail.com](mailto:anadiyadav33@gmail.com)
-- **GitHub**: [yourusername](https://github.com/AnadiYadav)
+- **Email**: [Akshatjain15122002jain@gmail.com](mailto:akshatjain15122002jain@gmail.com)
+- **GitHub**: [AkshatJ2002](https://github.com/AkshatJ2002)
 
 ## 💡 Future Enhancements
 
