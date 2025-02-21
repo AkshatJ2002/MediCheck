@@ -11,7 +11,7 @@ app.use(bodyParser.json({ limit: "10mb" }));
 app.use(bodyParser.urlencoded({ limit: "10mb", extended: true }));
 app.use(cors());
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 const genAI = new GoogleGenerativeAI(process.env.GENAI_API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
